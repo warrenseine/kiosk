@@ -1,0 +1,6 @@
+node_modules/
+out/
+build/
+kiosk.json
+.DS_Store
+Thumbs.db

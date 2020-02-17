@@ -1,0 +1,8 @@
+{
+  "watch": ["src/host", "src/shared"],
+  "ext": "ts",
+  "delay": "2000",
+  "events": {
+    "restart": "node -e \"console.clear()\""
+  }
+}

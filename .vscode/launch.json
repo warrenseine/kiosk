@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Electron",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/build/host/main.js",
+      "protocol": "inspector",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/run-electron.cmd",
+      "runtimeArgs": ["--remote-debugging-port=9223"],
+      "sourceMaps": true,
+      "stopOnEntry": false,
+      "outputCapture": "std",
+      "preLaunchTask": "Build"
+    }
+  ]
+}
